@@ -1,0 +1,276 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\bin\Release\itextsharp.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\bin\Debug\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\bin\Debug\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\bin\Debug\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\bin\Debug\itextsharp.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\bin\Debug\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\bin\Debug\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\bin\Debug\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\SL\Taxcom Office v2008\Taxoffice Taxcom B+ B2008.7 + B2008.9\TaxcomBPlus.exe
+C:\SL\Taxcom Office v2008\Taxoffice Taxcom B+ B2008.7 + B2008.9\TaxcomBPlus.pdb
+C:\SL\Taxcom Office v2008\Taxoffice Taxcom B+ B2008.7 + B2008.9\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\21Feb\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\SL\Taxcom Office v2008\Taxoffice Taxcom B+ e-filing2008\TaxcomBPlus.exe
+C:\SL\Taxcom Office v2008\Taxoffice Taxcom B+ e-filing2008\TaxcomBPlus.pdb
+C:\SL\Taxcom Office v2008\Taxoffice Taxcom B+ e-filing2008\TaxcomBPlus.xml
+P:\TaxProduct\Taxcom 2008\Taxcom v2008\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.exe
+P:\TaxProduct\Taxcom 2008\Taxcom v2008\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.xml
+P:\TaxProduct\Taxcom 2008\Taxcom v2008\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\Desktop\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\Desktop\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\TaxcomBPlus\TaxcomBPlus\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\Administrator\Desktop\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\Desktop\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\Desktop\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\TaxcomBPlus\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\Desktop\TaxcomBPlus\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\TaxcomBPlus\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\Desktop\TaxcomBPlus\TaxcomBPlus\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\Administrator\Desktop\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.vbproj.GenerateResource.Cache
+P:\TaxProduct\Taxcom 2008\Taxcom v2008\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.exe
+P:\TaxProduct\Taxcom 2008\Taxcom v2008\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.xml
+P:\TaxProduct\Taxcom 2008\Taxcom v2008\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.pdb
+P:\TaxProduct\Taxcom 2008\Taxcom v2008\TaxcomBPlus\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+P:\TaxProduct\Taxcom 2008\Taxcom v2008\TaxcomBPlus\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+P:\TaxProduct\Taxcom 2008\Taxcom v2008\TaxcomBPlus\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+P:\TaxProduct\Taxcom 2008\Taxcom v2008\TaxcomBPlus\TaxcomBPlus\obj\Release\ResolveAssemblyReference.cache
+P:\TaxProduct\Taxcom 2008\Taxcom v2008\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.frmBase.resources
+P:\TaxProduct\Taxcom 2008\Taxcom v2008\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.Resources.resources
+P:\TaxProduct\Taxcom 2008\Taxcom v2008\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.exe
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.xml
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.pdb
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\obj\Release\ResolveAssemblyReference.cache
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.frmBase.resources
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.Resources.resources
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.exe
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.xml
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.pdb
+C:\SL\Taxcom Office v2008\Taxoffice Taxcom B+ C2008.7\TaxcomBPlus.exe
+C:\SL\Taxcom Office v2008\Taxoffice Taxcom B+ C2008.7\TaxcomBPlus.pdb
+C:\SL\Taxcom Office v2008\Taxoffice Taxcom B+ C2008.7\TaxcomBPlus.xml
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\obj\Debug\ResolveAssemblyReference.cache
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.frmBase.resources
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.Resources.resources
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\obj\Debug\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\bin\Debug\TaxcomBPlus.exe
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\bin\Debug\TaxcomBPlus.pdb
+C:\SL\Taxcom Office v2008\TaxcomBPlus\TaxcomBPlus\bin\Debug\TaxcomBPlus.xml
+G:\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.exe
+G:\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.xml
+G:\TaxcomBPlus\TaxcomBPlus\obj\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+ C2009.1 (SU10)\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+ C2009.1 (SU10)\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+ C2009.1 (SU10)\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+\TaxcomBPlus Form\TaxcomBPlus\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+ 2009\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+ 2009\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+ 2009\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+ 2009\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+ 2009\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+ 2009\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+ 2009\TaxcomBPlus Form\TaxcomBPlus\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+ 2009\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+ 2009\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Syang\Project\Taxoffice Taxcom B+ 2009\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2010 SU1\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.exe
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2010 SU1\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.xml
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2010 SU1\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2010 SU1\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2010 SU1\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2010 SU1\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2010 SU1\TaxcomBPlus Form\TaxcomBPlus\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2010 SU1\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2010 SU1\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2010 SU1\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU3\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.exe
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU3\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.xml
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU3\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU3\TaxcomBPlus Form\TaxcomBPlus\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU3\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU3\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU3\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU3\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU3\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU3\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4.1\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4.1\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4.1\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4.1\TaxcomBPlus Form\TaxcomBPlus\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4.1\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4.1\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4.1\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4.1\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.exe
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4.1\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.xml
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4.1\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4\Taxoffice Taxcom B+ C2008.7\TaxcomBPlus.exe
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4\Taxoffice Taxcom B+ C2008.7\TaxcomBPlus.pdb
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4\Taxoffice Taxcom B+ C2008.7\TaxcomBPlus.xml
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.exe
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.xml
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.pdb
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU4\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.exe
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.xml
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.pdb
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5.1\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.exe
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5.1\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.xml
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5.1\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.pdb
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5.2\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.exe
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5.2\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.xml
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5.2\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.pdb
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5.2\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5.2\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5.2\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5.2\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5.2\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5.2\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\csngoh\Desktop\Taxoffice\Taxoffice\Taxoffice Taxcom B+ 2009 SU5.2\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.vbproj.GenerateResource.Cache
+D:\Ngkl\TAXcom\Taxoffice Taxcom B+\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.exe
+D:\Ngkl\TAXcom\Taxoffice Taxcom B+\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.xml
+D:\Ngkl\TAXcom\Taxoffice Taxcom B+\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010.3\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010.3\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010.3\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010.3\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010.3\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010.3\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010.3\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010.3\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010.3\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010.3\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\Documents and Settings\XPMUser\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.1 - Design\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.exe
+C:\Documents and Settings\XPMUser\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.1 - Design\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.xml
+C:\Documents and Settings\XPMUser\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.1 - Design\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.pdb
+C:\Documents and Settings\XPMUser\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.1 - Design\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\Documents and Settings\XPMUser\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.1 - Design\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\XPMUser\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.1 - Design\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\Documents and Settings\XPMUser\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.1 - Design\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\XPMUser\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.1 - Design\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\XPMUser\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.1 - Design\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\XPMUser\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.1 - Design\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\Documents and Settings\XPMUser\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.1 - Design\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.exe
+C:\Documents and Settings\XPMUser\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.1 - Design\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.xml
+C:\Documents and Settings\XPMUser\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.1 - Design\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\XPMUser\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.1 - Design\TaxcomBPlus Form\TaxcomBPlus\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\XPMUser\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.1 - Design\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\XPMUser\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.1 - Design\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\XPMUser\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.1 - Design\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.2\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.2\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.2\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.2\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.2\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.2\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.2\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.2\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.2\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.2\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.3\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.3\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.3\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.3\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.3\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.3\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.3\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.3\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.3\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.3\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.4\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.4\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.4\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.4\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.4\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.4\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.4\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.4\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.4\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\Administrator.YGLDESK0009\Desktop\Taxoffice\Taxoffice Taxcom B+ 2010 SU2.4\TaxcomBPlus Form\TaxcomBPlus\obj\Debug\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\Documents and Settings\XPMUser\Desktop\SVN\2012 SU2\Taxoffice\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.exe
+C:\Documents and Settings\XPMUser\Desktop\SVN\2012 SU2\Taxoffice\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.xml
+C:\Documents and Settings\XPMUser\Desktop\SVN\2012 SU2\Taxoffice\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\Desktop\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\Desktop\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\Documents and Settings\Administrator\Desktop\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\Documents and Settings\Administrator\Desktop\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+C:\Documents and Settings\Administrator\Desktop\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.frmBase.resources
+C:\Documents and Settings\Administrator\Desktop\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\TAXCOM MY\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.exe
+C:\TAXCOM MY\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.xml
+C:\TAXCOM MY\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.pdb
+C:\TAXCOM MY\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\obj\Release\ResolveAssemblyReference.cache
+C:\TAXCOM MY\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.frmBase.resources
+C:\TAXCOM MY\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.Resources.resources
+C:\TAXCOM MY\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\obj\Release\TaxcomBPlus.vbproj.GenerateResource.Cache
+C:\TAXCOM MY\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+C:\TAXCOM MY\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+C:\TAXCOM MY\Taxoffice14012015-sql\Visual Studio .NET\TaxcomBPlus Form\TaxcomBPlus\bin\Release\TaxcomBPlus.xml

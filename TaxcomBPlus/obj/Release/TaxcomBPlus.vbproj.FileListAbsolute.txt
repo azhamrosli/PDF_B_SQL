@@ -1,0 +1,9 @@
+D:\Share Folder\TAXCOM CODE VBNET\Visual Studio .NET\TaxcomBPlus Form SQL\TaxcomBPlus\bin\Release\TaxcomBPlus.exe
+D:\Share Folder\TAXCOM CODE VBNET\Visual Studio .NET\TaxcomBPlus Form SQL\TaxcomBPlus\bin\Release\TaxcomBPlus.pdb
+D:\Share Folder\TAXCOM CODE VBNET\Visual Studio .NET\TaxcomBPlus Form SQL\TaxcomBPlus\bin\Release\TaxcomBPlus.xml
+D:\Share Folder\TAXCOM CODE VBNET\Visual Studio .NET\TaxcomBPlus Form SQL\TaxcomBPlus\obj\Release\TaxcomBPlus.frmBase.resources
+D:\Share Folder\TAXCOM CODE VBNET\Visual Studio .NET\TaxcomBPlus Form SQL\TaxcomBPlus\obj\Release\TaxcomBPlus.Resources.resources
+D:\Share Folder\TAXCOM CODE VBNET\Visual Studio .NET\TaxcomBPlus Form SQL\TaxcomBPlus\obj\Release\TaxcomBPlus.vbproj.GenerateResource.Cache
+D:\Share Folder\TAXCOM CODE VBNET\Visual Studio .NET\TaxcomBPlus Form SQL\TaxcomBPlus\obj\Release\TaxcomBPlus.exe
+D:\Share Folder\TAXCOM CODE VBNET\Visual Studio .NET\TaxcomBPlus Form SQL\TaxcomBPlus\obj\Release\TaxcomBPlus.xml
+D:\Share Folder\TAXCOM CODE VBNET\Visual Studio .NET\TaxcomBPlus Form SQL\TaxcomBPlus\obj\Release\TaxcomBPlus.pdb

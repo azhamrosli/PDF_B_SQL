@@ -1,0 +1,1917 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TaxcomBPlus
+</name>
+</assembly>
+<members>
+<member name="M:TaxcomBPlus.clsBorangCP30.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP30.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP30.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP30.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP30.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2009.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2009.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2009.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2009.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2009.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2011.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2011.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2011.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2011.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2011.FormatFixedAmount(System.String)">
+	<summary>
+ Format the Amount String to 0000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2011.FormatFloatingAmount(System.String,System.Boolean)">
+	<summary>
+ Format the Amount String to 000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2011.FormatStringNumber(System.String,System.Int32)">
+	<summary>
+ Format the String Number type to specify format
+ </summary>
+	<param name="strTemp">The specific string number</param>
+	<param name="intMaxChar">Max of the specific string number to have.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2011.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2016.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2016.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2016.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2016.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2016.FormatFixedAmount(System.String)">
+	<summary>
+ Format the Amount String to 0000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2016.FormatFloatingAmount(System.String,System.Boolean)">
+	<summary>
+ Format the Amount String to 000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2016.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2013.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2013.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2013.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2013.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2013.FormatFixedAmount(System.String)">
+	<summary>
+ Format the Amount String to 0000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2013.FormatFloatingAmount(System.String,System.Boolean)">
+	<summary>
+ Format the Amount String to 000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2013.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2010.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2010.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2010.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2010.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2010.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302009.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302009.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302009.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302009.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302009.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2010.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2010.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2010.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2010.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2010.FormatFixedAmount(System.String)">
+	<summary>
+ Format the Amount String to 0000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2010.FormatFloatingAmount(System.String,System.Boolean)">
+	<summary>
+ Format the Amount String to 000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2010.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB.FormatFixedAmount(System.String)">
+	<summary>
+ Format the Amount String to 0000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB.FormatFloatingAmount(System.String,System.Boolean)">
+	<summary>
+ Format the Amount String to 000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2016.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2016.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2016.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2016.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2016.FormatFixedAmount(System.String)">
+	<summary>
+ Format the Amount String to 0000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2016.FormatFloatingAmount(System.String,System.Boolean)">
+	<summary>
+ Format the Amount String to 000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2016.FormatStringNumber(System.String,System.Int32)">
+	<summary>
+ Format the String Number type to specify format
+ </summary>
+	<param name="strTemp">The specific string number</param>
+	<param name="intMaxChar">Max of the specific string number to have.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2016.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2015.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2015.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2015.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2015.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2015.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2010.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2010.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2010.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2010.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2010.FormatFixedAmount(System.String)">
+	<summary>
+ Format the Amount String to 0000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2010.FormatFloatingAmount(System.String,System.Boolean)">
+	<summary>
+ Format the Amount String to 000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2010.FormatStringNumber(System.String,System.Int32)">
+	<summary>
+ Format the String Number type to specify format
+ </summary>
+	<param name="strTemp">The specific string number</param>
+	<param name="intMaxChar">Max of the specific string number to have.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2010.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2012.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2012.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2012.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2012.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2012.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2015.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2015.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2015.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2015.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2015.FormatFixedAmount(System.String)">
+	<summary>
+ Format the Amount String to 0000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2015.FormatFloatingAmount(System.String,System.Boolean)">
+	<summary>
+ Format the Amount String to 000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2015.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2010.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2010.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2010.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2010.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2010.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2012.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2012.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2012.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2012.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2012.FormatFixedAmount(System.String)">
+	<summary>
+ Format the Amount String to 0000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2012.FormatFloatingAmount(System.String,System.Boolean)">
+	<summary>
+ Format the Amount String to 000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2012.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2011.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2011.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2011.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2011.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2011.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2012.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2012.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2012.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2012.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2012.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE.FormatFixedAmount(System.String)">
+	<summary>
+ Format the Amount String to 0000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE.FormatFloatingAmount(System.String,System.Boolean)">
+	<summary>
+ Format the Amount String to 000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE.FormatStringNumber(System.String,System.Int32)">
+	<summary>
+ Format the String Number type to specify format
+ </summary>
+	<param name="strTemp">The specific string number</param>
+	<param name="intMaxChar">Max of the specific string number to have.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2014.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2014.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2014.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2014.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2014.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2013.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2013.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2013.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2013.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2013.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302010.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302010.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302010.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302010.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302010.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2015.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2015.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2015.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2015.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2015.FormatFixedAmount(System.String)">
+	<summary>
+ Format the Amount String to 0000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2015.FormatFloatingAmount(System.String,System.Boolean)">
+	<summary>
+ Format the Amount String to 000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2015.FormatStringNumber(System.String,System.Int32)">
+	<summary>
+ Format the String Number type to specify format
+ </summary>
+	<param name="strTemp">The specific string number</param>
+	<param name="intMaxChar">Max of the specific string number to have.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2015.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302011.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302011.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302011.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302011.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302011.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2014.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2014.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2014.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2014.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2014.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2009.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2009.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2009.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2009.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2009.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2014.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2014.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2014.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2014.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2014.FormatFixedAmount(System.String)">
+	<summary>
+ Format the Amount String to 0000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2014.FormatFloatingAmount(System.String,System.Boolean)">
+	<summary>
+ Format the Amount String to 000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2014.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302012.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302012.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302012.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302012.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302012.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2009.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2009.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2009.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2009.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2009.FormatFixedAmount(System.String)">
+	<summary>
+ Format the Amount String to 0000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2009.FormatFloatingAmount(System.String,System.Boolean)">
+	<summary>
+ Format the Amount String to 000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2009.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2011.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2011.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2011.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2011.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2011.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2015.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2015.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2015.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2015.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2015.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302013.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302013.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302013.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302013.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302013.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2016.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2016.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2016.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2016.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangP2016.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302014.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302014.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302014.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302014.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302014.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2011.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2011.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2011.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2011.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2011.FormatFixedAmount(System.String)">
+	<summary>
+ Format the Amount String to 0000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2011.FormatFloatingAmount(System.String,System.Boolean)">
+	<summary>
+ Format the Amount String to 000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangB2011.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2012.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2012.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2012.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2012.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2012.FormatFixedAmount(System.String)">
+	<summary>
+ Format the Amount String to 0000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2012.FormatFloatingAmount(System.String,System.Boolean)">
+	<summary>
+ Format the Amount String to 000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2012.FormatStringNumber(System.String,System.Int32)">
+	<summary>
+ Format the String Number type to specify format
+ </summary>
+	<param name="strTemp">The specific string number</param>
+	<param name="intMaxChar">Max of the specific string number to have.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2012.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2016.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2016.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2016.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2016.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangM2016.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302015.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302015.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302015.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302015.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302015.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2014.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2014.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2014.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2014.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2014.FormatFixedAmount(System.String)">
+	<summary>
+ Format the Amount String to 0000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2014.FormatFloatingAmount(System.String,System.Boolean)">
+	<summary>
+ Format the Amount String to 000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2014.FormatStringNumber(System.String,System.Int32)">
+	<summary>
+ Format the String Number type to specify format
+ </summary>
+	<param name="strTemp">The specific string number</param>
+	<param name="intMaxChar">Max of the specific string number to have.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2014.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2009.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2009.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2009.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2009.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2009.FormatFixedAmount(System.String)">
+	<summary>
+ Format the Amount String to 0000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2009.FormatFloatingAmount(System.String,System.Boolean)">
+	<summary>
+ Format the Amount String to 000#
+ </summary>
+	<param name="strTemp">The specific Amount</param>
+	<returns>Modified Amount</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2009.FormatStringNumber(System.String,System.Int32)">
+	<summary>
+ Format the String Number type to specify format
+ </summary>
+	<param name="strTemp">The specific string number</param>
+	<param name="intMaxChar">Max of the specific string number to have.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangBE2009.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302016.CheckFieldEmpty">
+	<summary>
+ Initial Field with dash sign
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302016.CheckFieldEmpty(System.String,System.Int32)">
+	<summary>
+ Initial value with dash sign.
+ </summary>
+	<param name="strField">The specific pdf field name</param>
+	<param name="intMaxChar">the max character in the field.</param>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302016.SplitText(System.String,System.Int32)">
+	<summary>
+ Split the text to n number of rows and return an array of string for each row.
+ </summary>
+	<param name="strText">The text which is need to split</param>
+	<param name="intSize">The max character of the text</param>
+	<returns>An array of String</returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302016.FormatDate(System.DateTime)">
+	<summary>
+ Format the Date Time Data Type to ddMMyyyy
+ </summary>
+	<param name="dtTemp">The specific Date Time</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TaxcomBPlus.clsBorangCP302016.FormatPhoneNumber(System.String,System.String,System.String,System.String)">
+	<summary>
+ Format the Phone Number according to match the specific field
+ </summary>
+	<param name="strHomePrefix"> The prefix number of the home phone no.Exp:04</param>
+	<param name="strHome">The home phone number. Exp: 1234567</param>
+	<param name="strMobilePrefix">The prefix number of the mobile phone no.Exp:016</param>
+	<param name="strMobile">The prefix phone number. Exp: 1234567</param>
+	<returns>The modified phone number as String Type</returns>
+	<remarks></remarks>
+</member><member name="P:TaxcomBPlus.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:TaxcomBPlus.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:TaxcomBPlus.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
