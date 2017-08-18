@@ -181,7 +181,7 @@ Public Class clsBorangM2014
             'Master Data
             prmOledb(0) = New SqlParameter("@ref_no", pdfForm.GetRefNo)
             ds = datHandler.GetData("SELECT TP_LAST_PASSPORT_NO, TP_DOB, TP_WORKER_APPROVEDATE, TP_COM_ADD_STATUS FROM TAXP_PROFILE2 WHERE" _
-                        & " TP_REF_NO= ?", prmOledb)
+                        & " TP_REF_NO= ?", prmOledb) '?
             pdfFormFields.SetField(pdfFieldPath & "VIIa[0]", ds.Tables(0).Rows(0).Item(0).ToString)
             'lyeyc
             If Not IsDBNull(ds.Tables(0).Rows(0).Item(3)) Then
