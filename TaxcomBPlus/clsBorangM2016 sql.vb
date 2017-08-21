@@ -87,7 +87,7 @@ Public Class clsBorangM2016
 
             'Declaration
             If pdfForm.GetDeclarationReturn = 1 Then
-                dr = datHandler.GetDataReader("SELECT * FROM [TAXP_PROFILE] WHERE [TP_REF_NO1] & [TP_REF_NO2] & [TP_REF_NO3] = '" & pdfForm.GetRefNo & "'")
+                dr = datHandler.GetDataReader("SELECT * FROM [TAXP_PROFILE] WHERE [TP_REF_NO1] + [TP_REF_NO2] + [TP_REF_NO3] = '" & pdfForm.GetRefNo & "'")
                 If dr.Read() Then
                     'strArray = SplitText(RefName, 28)
                     pdfFormFields.SetField(pdfFieldPath & "Akuan1[0]", RefName)
@@ -181,7 +181,7 @@ Public Class clsBorangM2016
             'Master Data
             prmOledb(0) = New SqlParameter("@ref_no", pdfForm.GetRefNo)
             ds = datHandler.GetData("SELECT TP_LAST_PASSPORT_NO, TP_DOB, TP_WORKER_APPROVEDATE, TP_COM_ADD_STATUS FROM TAXP_PROFILE2 WHERE" _
-                        & " TP_REF_NO= ?", prmOledb)
+                        & " TP_REF_NO= @ref_no", prmOledb)
             pdfFormFields.SetField(pdfFieldPath & "VIIa[0]", ds.Tables(0).Rows(0).Item(0).ToString)
             'lyeyc
             If Not IsDBNull(ds.Tables(0).Rows(0).Item(3)) Then
@@ -262,11 +262,11 @@ Public Class clsBorangM2016
 
             'C7 - C20
             dr = datHandler.GetDataReader("Select TC_BUSINESS, TC_PARTNERSHIP, TC_STATUTORY_INCOME, TC_BUSINESSLOSS_BF, TC_AGGREGATE_BUS_INCOME," _
-                                & " TC_EMPLOYMENT_INCOME, TC_DIVIDEND, (cdbl(TC_INTEREST) + cdbl(TC_DISCOUNT)), " _
-                                & " (cdbl(TC_RENTAL_ROYALTY)+cdbl(TC_PREMIUM)), TC_PENSION_AND_ETC," _
-                                & " (cdbl(TC_OTHER_GAIN_PROFIT) + cdbl(TC_SEC4A)), TC_ADDITION_43," _
+                                & " TC_EMPLOYMENT_INCOME, TC_DIVIDEND, (cast(TC_INTEREST as money) + cast(TC_DISCOUNT as money)), " _
+                                & " (cast(TC_RENTAL_ROYALTY as money)+cast(TC_PREMIUM as money)), TC_PENSION_AND_ETC," _
+                                & " (cast(TC_OTHER_GAIN_PROFIT as money) + cast(TC_SEC4A as money)), TC_ADDITION_43," _
                                 & " TC_AGGREGATE_OTHER_SRC, TC_AGGREGATE_INCOME, TC_BUSINESSLOSS_CY," _
-                                & " TC_TOTAL1, TC_EXEMPT_CLAIM, TC_EXEMPT_COUNTRY, TC_EXEMPT_AMOUNT, (cdbl(TC_INTEREST)+cdbl(TC_DISCOUNT)+cdbl(TC_RENTAL_ROYALTY)+cdbl(TC_PREMIUM)+cdbl(TC_PENSION_AND_ETC)+cdbl(TC_OTHER_GAIN_PROFIT)+cdbl(TC_SEC4A)) from tax_computation where" _
+                                & " TC_TOTAL1, TC_EXEMPT_CLAIM, TC_EXEMPT_COUNTRY, TC_EXEMPT_AMOUNT, (cast(TC_INTEREST as money)+cast(TC_DISCOUNT as money)+cast(TC_RENTAL_ROYALTY as money)+cast(TC_PREMIUM as money)+cast(TC_PENSION_AND_ETC as money)+cast(TC_OTHER_GAIN_PROFIT as money)+cast(TC_SEC4A as money)) from tax_computation where" _
                                 & " tc_ref_no ='" & pdfForm.GetRefNo & "' and tc_ya ='" & pdfForm.GetYA & "'")
             'weihong TC_EXEMPT_AMOUNT
             If dr.Read() Then
@@ -716,7 +716,7 @@ Public Class clsBorangM2016
 
 
             ' === Part E === '
-            dr = datHandler.GetDataReader("Select TC_TAX_PAYABLE, (cdbl(TC_INSTALLMENT_PAYMENT_SELF) + cdbl(TC_INSTALLMENT_PAYMENT_HW))," _
+            dr = datHandler.GetDataReader("Select TC_TAX_PAYABLE, (cast(TC_INSTALLMENT_PAYMENT_SELF as money) + cast(TC_INSTALLMENT_PAYMENT_HW as money))," _
                                      & " TC_BALANCE_TAX_PAYABLE, TC_BALANCE_TAX_OVERPAID" _
                                      & " From TAX_COMPUTATION Where" _
                                      & " TC_REF_NO= '" & pdfForm.GetRefNo & "' and TC_YA= '" & pdfForm.GetYA & "'")
@@ -1405,7 +1405,7 @@ Public Class clsBorangM2016
             'Master Data
             prmOledb(0) = New SqlParameter("@ref_no", pdfForm.GetRefNo)
             ds = datHandler.GetData("SELECT TP_HW_LAST_PASSPORT_NO, TP_HW_DOB, TP_BWA FROM TAXP_PROFILE2 WHERE" _
-                        & " TP_REF_NO= ?", prmOledb)
+                        & " TP_REF_NO= @ref_no", prmOledb)
             pdfFormFields.SetField(pdfFieldPath & "A14[0]", ds.Tables(0).Rows(0).Item(2).ToString)
             pdfFormFields.SetField(pdfFieldPath & "C5[0]", ds.Tables(0).Rows(0).Item(0).ToString)
 
@@ -1629,9 +1629,9 @@ Public Class clsBorangM2016
 
             'C7 - C20
             dr = datHandler.GetDataReader("Select TC_STATUTORY_INCOME, TC_BUSINESSLOSS_BF, TC_AGGREGATE_BUS_INCOME," _
-                                & " TC_EMPLOYMENT_INCOME, TC_DIVIDEND, (cdbl(TC_INTEREST) + cdbl(TC_DISCOUNT)), " _
-                                & " (cdbl(TC_RENTAL_ROYALTY)+cdbl(TC_PREMIUM)), TC_PENSION_AND_ETC," _
-                                & " (cdbl(TC_OTHER_GAIN_PROFIT) + cdbl(TC_SEC4A)), TC_ADDITION_43," _
+                                & " TC_EMPLOYMENT_INCOME, TC_DIVIDEND, (cast(TC_INTEREST as money) + cast(TC_DISCOUNT as money)), " _
+                                & " (cast(TC_RENTAL_ROYALTY as money)+cast(TC_PREMIUM as money)), TC_PENSION_AND_ETC," _
+                                & " (cast(TC_OTHER_GAIN_PROFIT as money) + cast(TC_SEC4A as money)), TC_ADDITION_43," _
                                 & " TC_AGGREGATE_OTHER_SRC, TC_AGGREGATE_INCOME, TC_BUSINESSLOSS_CY," _
                                 & " TC_TOTAL1, TC_EXEMPT_CLAIM, TC_EXEMPT_COUNTRY, TC_EXEMPT_AMOUNT from tax_computation where" _
                                 & " tc_ref_no ='" & pdfForm.GetRefNo & "' and tc_ya ='" & pdfForm.GetYA & "'")

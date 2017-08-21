@@ -354,7 +354,7 @@ Public Class clsBorangB2013
             ds.Clear()
 
             dr = datHandler.GetDataReader("Select TC_STATUTORY_INCOME, TC_BUSINESSLOSS_BF, TC_AGGREGATE_BUS_INCOME," _
-                                & " TC_EMPLOYMENT_INCOME, (cdbl(TC_INTEREST)+cdbl(TC_DISCOUNT)+cdbl(TC_RENTAL_ROYALTY)+cdbl(TC_PREMIUM)+cdbl(TC_PENSION_AND_ETC)+cdbl(TC_OTHER_GAIN_PROFIT)+cdbl(TC_SEC4A)+cdbl(TC_ADDITION_43)), " _
+                                & " TC_EMPLOYMENT_INCOME, (cast(TC_INTEREST as money)+cast(TC_DISCOUNT as money)+cast(TC_RENTAL_ROYALTY as money)+cast(TC_PREMIUM as money)+cast(TC_PENSION_AND_ETC as money)+cast(TC_OTHER_GAIN_PROFIT as money)+cast(TC_SEC4A as money)+cast(TC_ADDITION_43 as money)), " _
                                 & " TC_AGGREGATE_OTHER_SRC, TC_AGGREGATE_INCOME, TC_BUSINESSLOSS_CY," _
                                 & " TC_TOTAL1 from tax_computation where" _
                                 & " tc_ref_no ='" & pdfForm.GetRefNo & "' and tc_ya ='" & pdfForm.GetYA & "'")
@@ -449,12 +449,19 @@ Public Class clsBorangB2013
 
             ' ==== Part E ==== '
             'E1 - E15 exclude E4 - E7
+
             dr = datHandler.GetDataReader("Select TC_KEY, TC_RELIEF, TC_CHARGEABLE_INCOME, TC_TAX_FIRST_INCOME, TC_TAX_FIRST_TAX," _
                                 & " TC_TAX_BALANCE_INCOME, TC_TAX_BALANCE_RATE, TC_TAX_BALANCE_TAX, TC_TOTAL_INCOME_TAX," _
-                                & " TC_REBATES, TC_INCOME_TAX_CHARGED, TC_SEC110_DIVIDEND,TC_SEC110_OTHERS, (cdbl(TC_1)+ cdbl(TC_2))," _
-                                & " (cdbl(TC_SEC110_DIVIDEND) + cdbl(TC_SEC110_OTHERS) + cdbl(TC_1)+ cdbl(TC_2)), TC_TAX_PAYABLE, TC_TAX_REPAYMENT, TC_TAX_SCH1_INCOME, TC_TAX_SCH1_TAX, TC_AGGREGATE_INCOME" _
+                                & " TC_REBATES, TC_INCOME_TAX_CHARGED, TC_SEC110_DIVIDEND,TC_SEC110_OTHERS, (cast(TC_1 as money)+ cast(TC_2 as money))," _
+                                & " (cast(TC_SEC110_DIVIDEND as money) + cast(TC_SEC110_OTHERS as money) + cast(TC_1 as money)+ cast(TC_2 as money)), TC_TAX_PAYABLE, TC_TAX_REPAYMENT, TC_TAX_SCH1_INCOME, TC_TAX_SCH1_TAX, TC_AGGREGATE_INCOME" _
                                 & " From TAX_COMPUTATION Where" _
                                 & " TC_REF_NO= '" & pdfForm.GetRefNo & "' and TC_YA= '" & pdfForm.GetYA & "'")
+            'dr = datHandler.GetDataReader("Select TC_KEY, TC_RELIEF, TC_CHARGEABLE_INCOME, TC_TAX_FIRST_INCOME, TC_TAX_FIRST_TAX," _
+            '                    & " TC_TAX_BALANCE_INCOME, TC_TAX_BALANCE_RATE, TC_TAX_BALANCE_TAX, TC_TOTAL_INCOME_TAX," _
+            '                    & " TC_REBATES, TC_INCOME_TAX_CHARGED, TC_SEC110_DIVIDEND,TC_SEC110_OTHERS, (cast(TC_1)+ cast(TC_2))," _
+            '                    & " (cast(TC_SEC110_DIVIDEND as money) + cast(TC_SEC110_OTHERS as money) + cast(TC_1 as money)+ cast(TC_2 as money)), TC_TAX_PAYABLE, TC_TAX_REPAYMENT, TC_TAX_SCH1_INCOME, TC_TAX_SCH1_TAX, TC_AGGREGATE_INCOME" _
+            '                    & " From TAX_COMPUTATION Where" _
+            '                    & " TC_REF_NO= '" & pdfForm.GetRefNo & "' and TC_YA= '" & pdfForm.GetYA & "'")
 
             '& " TC_REF_NO= '" & pdfForm.GetRefNo & "' and TC_YA= '" & pdfForm.GetYA & "'")
             '& " EI_REF_NO= '" & pdfForm.GetRefNo & "' and EI_YA= '" & pdfForm.GetYA & "'")
@@ -565,7 +572,7 @@ Public Class clsBorangB2013
             dr.Close()
 
             ' === Part F === '
-            dr = datHandler.GetDataReader("Select TC_TAX_PAYABLE, (cdbl(TC_INSTALLMENT_PAYMENT_SELF) + cdbl(TC_INSTALLMENT_PAYMENT_HW))," _
+            dr = datHandler.GetDataReader("Select TC_TAX_PAYABLE, (cast(TC_INSTALLMENT_PAYMENT_SELF as money) + cast(TC_INSTALLMENT_PAYMENT_HW as money))," _
                                      & " TC_BALANCE_TAX_PAYABLE, TC_BALANCE_TAX_OVERPAID" _
                                      & " From TAX_COMPUTATION Where" _
                                      & " TC_REF_NO= '" & pdfForm.GetRefNo & "' and TC_YA= '" & pdfForm.GetYA & "'")
@@ -769,18 +776,18 @@ Public Class clsBorangB2013
                 pdfFieldPath = pdfSubFormName & "Page3[0]."
 
                 ds = datHandler.GetData("select tp_name , tp_ref_no_prefix, (tp_ref_no1 + tp_ref_no2 + tp_ref_no3)," _
-                            & " (tp_ic_new_1 + tp_ic_new_2 + tp_ic_new_3), tp_ic_old," _
-                            & " tp_police_no, tp_army_no, tp_passport_no," _
-                            & " tp_country, tp_gender, tp_status, tp_date_marriage," _
-                            & " tp_date_divorce, tp_type_assessment, tp_kup," _
-                            & " (tp_curr_add_line1 + iif(tp_curr_add_line2 = '','',', ') + tp_curr_add_line2 + iif(tp_curr_add_line3 = '','',', ') + tp_curr_add_line3)," _
-                            & " tp_curr_postcode, tp_curr_city, tp_curr_state," _
-                            & " (tp_com_add_line1 + iif(tp_com_add_line2 = '','',', ') + tp_com_add_line2 + iif(tp_com_add_line3 = '','',', ') + tp_com_add_line3)," _
-                            & " tp_com_postcode, tp_com_city, tp_com_state," _
-                            & " tp_tel1, tp_tel2, tp_mobile1, tp_mobile2," _
-                            & " (tp_employer_no2 + tp_employer_no3)," _
-                            & " tp_email, tp_bank, tp_bank_acc, tp_assessmenton" _
-                            & " from taxp_profile where (tp_ref_no1 + tp_ref_no2 + tp_ref_no3)=@ref_no", prmOledb)
+                        & " (tp_ic_new_1 + tp_ic_new_2 + tp_ic_new_3), tp_ic_old," _
+                        & " tp_police_no, tp_army_no, tp_passport_no," _
+                        & " tp_country, tp_gender, tp_status, tp_date_marriage," _
+                        & " tp_date_divorce, tp_type_assessment, tp_kup," _
+                        & " (tp_curr_add_line1 + (case when tp_curr_add_line2 = '' then '' else ', ' end) + tp_curr_add_line2 + (case when tp_curr_add_line3 = '' then '' else ', ' end) + tp_curr_add_line3)," _
+                        & " tp_curr_postcode, tp_curr_city, tp_curr_state," _
+                        & " (tp_com_add_line1 + (case when tp_com_add_line2 = '' then '' else ', ' end) + tp_com_add_line2 + (case when tp_com_add_line3 = '' then '' else ', ' end) + tp_com_add_line3)," _
+                        & " tp_com_postcode, tp_com_city, tp_com_state," _
+                        & " tp_tel1, tp_tel2, tp_mobile1, tp_mobile2," _
+                        & " (tp_employer_no2 + tp_employer_no3)," _
+                        & " tp_email, tp_bank, tp_bank_acc, tp_assessmenton" _
+                        & " from taxp_profile where (tp_ref_no1 + tp_ref_no2 + tp_ref_no3)=@ref_no", prmOledb)
 
                 'weihong TP_WORKER_APPROVEDATE
                 dr = datHandler.GetDataReader("select tp_last_passport_no, tp_bwa, TP_WORKER_APPROVEDATE, TP_COM_ADD_STATUS from taxp_profile2 where" _
@@ -1491,7 +1498,7 @@ Public Class clsBorangB2013
                                 & " (cast(TC_RENTAL_ROYALTY as money)+cast(TC_PREMIUM as money)), TC_PENSION_AND_ETC," _
                                 & " (cast(TC_OTHER_GAIN_PROFIT as money) + cast(TC_SEC4A as money)), TC_ADDITION_43," _
                                 & " TC_AGGREGATE_OTHER_SRC, TC_AGGREGATE_INCOME, TC_BUSINESSLOSS_CY," _
-                                & " TC_TOTAL1, (cdbl(TC_PROSPECTING) + cdbl(TC_QUALIFYING_AG_EXP)), TC_DONATION_GIFT from tax_computation where" _
+                                & " TC_TOTAL1, (cast(TC_PROSPECTING as money) + cast(TC_QUALIFYING_AG_EXP as money)), TC_DONATION_GIFT from tax_computation where" _
                                 & " tc_ref_no ='" & pdfForm.GetRefNo & "' and tc_ya ='" & pdfForm.GetYA & "'")
 
             If dr.Read() Then
@@ -1791,7 +1798,7 @@ Public Class clsBorangB2013
                 dblTotalValue = 0
                 dblTotalValue2 = 0
 
-                dr2 = datHandler.GetDataReader("SELECT sum(cdbl([EXA_AMOUNT])) FROM [PL_INCOME_OTHERBUSINESS] WHERE [EXA_KEY] = " & dr("PL_KEY"))
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money)) FROM [PL_INCOME_OTHERBUSINESS] WHERE [EXA_KEY] = " & dr("PL_KEY"))
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         dblTotalValue = CDbl(dr2.Item(0))
@@ -1816,7 +1823,7 @@ Public Class clsBorangB2013
 
                 'M9
                 'dblTotalValue2 = 0
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_INCOME_NONBUSINESS] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 47 ")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money)) FROM [PL_INCOME_NONBUSINESS] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 47 ")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         pdfFormFields.SetField(pdfFieldPath & "M9[0]", FormatFixedAmount(dr2.Item(0).ToString))
@@ -1831,7 +1838,7 @@ Public Class clsBorangB2013
 
 
                 'M10
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_INCOME_NONBUSINESS] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 50 ")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money)) FROM [PL_INCOME_NONBUSINESS] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 50 ")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         pdfFormFields.SetField(pdfFieldPath & "M10[0]", FormatFixedAmount(dr2.Item(0).ToString))
@@ -1848,7 +1855,7 @@ Public Class clsBorangB2013
                 ' === Cont. Page 7 === '
 
                 'M11
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_INCOME_NONBUSINESS] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE between 48 and 49 ")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money)) FROM [PL_INCOME_NONBUSINESS] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE between 48 and 49 ")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         pdfFormFields.SetField(pdfFieldPath & "M11[0]", FormatFixedAmount(dr2.Item(0).ToString))
@@ -1862,7 +1869,7 @@ Public Class clsBorangB2013
                 dr2.Close()
 
                 'M12
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_INCOME_NONBUSINESS] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 51 ")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_INCOME_NONBUSINESS] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 51 ")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         dblTemp = dblTemp + CDbl(dr2.Item(0))
@@ -1870,7 +1877,7 @@ Public Class clsBorangB2013
                 End If
                 dr2.Close()
 
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_INCOME_NONTAXABLE] WHERE [EXA_KEY] = " & dr("PL_KEY"))
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_INCOME_NONTAXABLE] WHERE [EXA_KEY] = " & dr("PL_KEY"))
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         dblTemp = dblTemp + CDbl(dr2.Item(0))
@@ -1888,7 +1895,7 @@ Public Class clsBorangB2013
 
                 'M14
                 dblTotalValue2 = 0
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 11")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 11")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         pdfFormFields.SetField(pdfFieldPath & "M14[0]", FormatFixedAmount(dr2.Item(0).ToString))
@@ -1903,7 +1910,7 @@ Public Class clsBorangB2013
 
 
                 'M15
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 12")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 12")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         pdfFormFields.SetField(pdfFieldPath & "M15[0]", FormatFixedAmount(dr2.Item(0).ToString))
@@ -1918,7 +1925,7 @@ Public Class clsBorangB2013
 
 
                 'M16
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 13")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 13")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         pdfFormFields.SetField(pdfFieldPath & "M16[0]", FormatFixedAmount(dr2.Item(0).ToString))
@@ -1933,7 +1940,7 @@ Public Class clsBorangB2013
 
 
                 'M17
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 14")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 14")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         pdfFormFields.SetField(pdfFieldPath & "M17[0]", FormatFixedAmount(dr2.Item(0).ToString))
@@ -1948,7 +1955,7 @@ Public Class clsBorangB2013
 
 
                 'M18
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 15")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 15")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         pdfFormFields.SetField(pdfFieldPath & "M18[0]", FormatFixedAmount(dr2.Item(0).ToString))
@@ -1963,7 +1970,7 @@ Public Class clsBorangB2013
 
 
                 'M19
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 16")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 16")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         pdfFormFields.SetField(pdfFieldPath & "M19[0]", FormatFixedAmount(dr2.Item(0).ToString))
@@ -1978,7 +1985,7 @@ Public Class clsBorangB2013
 
 
                 'M20
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 17")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 17")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         pdfFormFields.SetField(pdfFieldPath & "M20[0]", FormatFixedAmount(dr2.Item(0).ToString))
@@ -1993,7 +2000,7 @@ Public Class clsBorangB2013
 
 
                 'M21
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 52")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 52")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         pdfFormFields.SetField(pdfFieldPath & "M21[0]", FormatFixedAmount(dr2.Item(0).ToString))
@@ -2008,7 +2015,7 @@ Public Class clsBorangB2013
 
 
                 'M22
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 53")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND EXA_PLTYPE = 53")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         pdfFormFields.SetField(pdfFieldPath & "M22[0]", FormatFixedAmount(dr2.Item(0).ToString))
@@ -2024,7 +2031,7 @@ Public Class clsBorangB2013
 
                 'M23 - M24
                 dblTemp = 0
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND (EXA_PLTYPE between 18 and 20 or EXA_PLTYPE = 46)")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND (EXA_PLTYPE between 18 and 20 or EXA_PLTYPE = 46)")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         dblTemp = CDbl(dr2.Item(0))
@@ -2032,7 +2039,7 @@ Public Class clsBorangB2013
                 End If
                 dr2.Close()
 
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_EXP_NONALLOWLOSS] WHERE [EXA_KEY] = " & dr("PL_KEY"))
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_EXP_NONALLOWLOSS] WHERE [EXA_KEY] = " & dr("PL_KEY"))
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         dblTemp = dblTemp + CDbl(dr2.Item(0))
@@ -2040,7 +2047,7 @@ Public Class clsBorangB2013
                 End If
                 dr2.Close()
 
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_EXP_NONALLOWEXPEND] WHERE [EXA_KEY] = " & dr("PL_KEY"))
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_EXP_NONALLOWEXPEND] WHERE [EXA_KEY] = " & dr("PL_KEY"))
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         dblTemp = dblTemp + CDbl(dr2.Item(0))
@@ -2048,7 +2055,7 @@ Public Class clsBorangB2013
                 End If
                 dr2.Close()
 
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_EXP_PERSONAL] WHERE [EXA_KEY] = " & dr("PL_KEY"))
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_EXP_PERSONAL] WHERE [EXA_KEY] = " & dr("PL_KEY"))
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         dblTemp = dblTemp + CDbl(dr2.Item(0))
@@ -2074,7 +2081,7 @@ Public Class clsBorangB2013
 
                 'M26 Cal
                 dblTemp = 0
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND [EXA_DEDUCTIBLE]='No'")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_EXPENSES] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND [EXA_DEDUCTIBLE]='No'")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         dblTemp = dblTemp + CDbl(dr2.Item(0))
@@ -2082,7 +2089,7 @@ Public Class clsBorangB2013
                 End If
                 dr2.Close()
 
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_EXP_NONALLOWEXPEND] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND [EXA_DEDUCTIBLE]='No'")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_EXP_NONALLOWEXPEND] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND [EXA_DEDUCTIBLE]='No'")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         dblTemp = dblTemp + CDbl(dr2.Item(0))
@@ -2090,7 +2097,7 @@ Public Class clsBorangB2013
                 End If
                 dr2.Close()
 
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_EXP_PERSONAL] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND [EXA_DEDUCTIBLE]='No'")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_EXP_PERSONAL] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND [EXA_DEDUCTIBLE]='No'")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         dblTemp = dblTemp + CDbl(dr2.Item(0))
@@ -2098,7 +2105,7 @@ Public Class clsBorangB2013
                 End If
                 dr2.Close()
 
-                dr2 = datHandler.GetDataReader("SELECT sum([EXA_AMOUNT]) FROM [PL_PRODUCTION_COST] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND [EXA_DEDUCTIBLE]='No' and (EXA_PLTYPE = 43 or EXA_PLTYPE = 45)")
+                dr2 = datHandler.GetDataReader("SELECT sum(cast([EXA_AMOUNT] as money))  FROM [PL_PRODUCTION_COST] WHERE [EXA_KEY] = " & dr("PL_KEY") & " AND [EXA_DEDUCTIBLE]='No' and (EXA_PLTYPE = 43 or EXA_PLTYPE = 45)")
                 If dr2.Read() Then
                     If Not IsDBNull(dr2.Item(0)) Then
                         dblTemp = dblTemp + CDbl(dr2.Item(0))

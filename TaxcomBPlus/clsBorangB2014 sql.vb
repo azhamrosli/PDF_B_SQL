@@ -567,7 +567,7 @@ Public Class clsBorangB2014
             dr.Close()
 
             ' === Part F === '
-            dr = datHandler.GetDataReader("Select TC_TAX_PAYABLE, (cast(TC_INSTALLMENT_PAYMENT_SELF as money) + cdbl(cast(TC_INSTALLMENT_PAYMENT_HW as money))," _
+            dr = datHandler.GetDataReader("Select TC_TAX_PAYABLE, (cast(TC_INSTALLMENT_PAYMENT_SELF as money) + cast(TC_INSTALLMENT_PAYMENT_HW as money))," _
                                      & " TC_BALANCE_TAX_PAYABLE, TC_BALANCE_TAX_OVERPAID" _
                                      & " From TAX_COMPUTATION Where" _
                                      & " TC_REF_NO= '" & pdfForm.GetRefNo & "' and TC_YA= '" & pdfForm.GetYA & "'")
@@ -1488,12 +1488,12 @@ Public Class clsBorangB2014
 
 
             'C7 - C20
-            dr = datHandler.GetDataReader("Select TC_STATUTORY_INCOME, TC_BUSINESSLOSS_BF, TC_AGGREGATE_BUS_INCOME," _
+            dr = datHandler.GetDataReader("Select TC_STATUTORY_INCOME,TC_BUSINESSLOSS_BF, TC_AGGREGATE_BUS_INCOME," _
                                 & " TC_EMPLOYMENT_INCOME, TC_DIVIDEND, (cast(TC_INTEREST as money) + cast(TC_DISCOUNT as money)), " _
                                 & " (cast(TC_RENTAL_ROYALTY as money)+cast(TC_PREMIUM as money)), TC_PENSION_AND_ETC," _
                                 & " (cast(TC_OTHER_GAIN_PROFIT as money) + cast(TC_SEC4A as money)), TC_ADDITION_43," _
                                 & " TC_AGGREGATE_OTHER_SRC, TC_AGGREGATE_INCOME, TC_BUSINESSLOSS_CY,TC_PARTNERSHIP," _
-                                & " TC_TOTAL1 from tax_computation where" _
+                                & " TC_TOTAL1, (cast(TC_PROSPECTING as money) + cast(TC_QUALIFYING_AG_EXP as money)) as TC_16, TC_DONATION_GIFT, TC_BUSINESS from tax_computation where" _
                                 & " tc_ref_no ='" & pdfForm.GetRefNo & "' and tc_ya ='" & pdfForm.GetYA & "'")
 
             If dr.Read() Then
@@ -1545,8 +1545,8 @@ Public Class clsBorangB2014
                 If Not IsDBNull(dr("TC_TOTAL1")) Then
                     pdfFormFields.SetField(pdfFieldPath & "C20[0]", FormatFixedAmount(dr("TC_TOTAL1")))
                 End If
-                If Not IsDBNull(dr.Item(16)) Then
-                    pdfFormFields.SetField(pdfFieldPath & "B12[0]", FormatFixedAmount(dr.Item(16).ToString))
+                If Not IsDBNull(dr("TC_16")) Then
+                    pdfFormFields.SetField(pdfFieldPath & "B12[0]", FormatFixedAmount(dr("TC_16")))
                 End If
                 If Not IsDBNull(dr("TC_DONATION_GIFT")) Then
                     pdfFormFields.SetField(pdfFieldPath & "B13[0]", FormatFixedAmount(dr("TC_DONATION_GIFT")))

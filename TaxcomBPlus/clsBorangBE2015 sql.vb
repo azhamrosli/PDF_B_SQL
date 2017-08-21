@@ -64,7 +64,7 @@ Public Class clsBorangBE2015
                 "taxp_profile2.TP_HW_DOB" & _
                 " from taxp_profile inner join taxp_profile2" & _
                 " on  (taxp_profile.tp_ref_no1 + taxp_profile.tp_ref_no2 +taxp_profile.tp_ref_no3)= taxp_profile2.TP_REF_NO" & _
-                " where (taxp_profile.tp_ref_no1 + taxp_profile.tp_ref_no2 + taxp_profile.tp_ref_no3)=?"
+                " where (taxp_profile.tp_ref_no1 + taxp_profile.tp_ref_no2 + taxp_profile.tp_ref_no3)=@ref_no"
 
             ds = datHandler.GetData(strSQL, prmOledb)
             ' ==== Master Data ==== "
