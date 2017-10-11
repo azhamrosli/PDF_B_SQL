@@ -422,7 +422,7 @@ Public Class clsBorangP2015
                 Else
                     CheckFieldEmpty(pdfFieldPath & "G7", 13)
                 End If
-                If Not String.IsNullOrEmpty(dr("PT_TEL1")) Or Not String.IsNullOrEmpty(dr("PT_TEL2")) Then
+                If Not String.IsNullOrEmpty(dr("PT_MOBILE1")) Or Not String.IsNullOrEmpty(dr("PT_MOBILE2")) Then
                     pdfFormFields.SetField(pdfFieldPath & "G8", FormatPhoneNumber("", "", dr("PT_MOBILE1").ToString, dr("PT_MOBILE2").ToString)) 'G8
                 Else
                     CheckFieldEmpty(pdfFieldPath & "G8", 13)

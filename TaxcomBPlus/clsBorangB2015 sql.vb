@@ -1915,7 +1915,7 @@ Public Class clsBorangB2015
             End If
 
             If dr.Read() Then
-                dr2 = datHandler.GetDataReader("SELECT BC_BUS_ENTITY, BC_CODE, BC_COMPANY FROM [BUSINESS_SOURCE],BC_TYPE WHERE [BC_KEY] = '" _
+                dr2 = datHandler.GetDataReader("SELECT BC_BUS_ENTITY, BC_CODE, BC_COMPANY,BC_TYPE FROM [BUSINESS_SOURCE] WHERE [BC_KEY] = '" _
                                         & pdfForm.GetRefNo & "' AND [BC_YA] = '" & pdfForm.GetYA & "' AND " _
                                         & "[BC_BUSINESSSOURCE] = '" & Trim(dr("PL_MAIN_BUSINESS")) & "'")
                 If dr2.Read() Then
