@@ -2944,7 +2944,8 @@ Public Class clsBorangB2016
                 If Not IsDBNull(dr("TC_TAX_BALANCE_TAX")) Then
                     Dim tmpDec As Decimal = IIf(IsNumeric(dr("TC_TAX_BALANCE_TAX")), dr("TC_TAX_BALANCE_TAX"), 0)
                     'MsgBox("E2b_1" & FormatFixedAmount(dr("TC_TAX_BALANCE_TAX").ToString) & " + " & dr("TC_TAX_BALANCE_TAX").ToString & " - " & tmpDec.ToString("N0"))
-                    pdfFormFields.SetField(pdfFieldPath & "E2b_3[0]", FormatFixedAmount(tmpDec.ToString("N0"))) 'FormatFloatingAmount(dr("TC_TAX_BALANCE_TAX").ToString, True))
+                    '  pdfFormFields.SetField(pdfFieldPath & "E2b_3[0]", FormatFixedAmount(tmpDec)) 'FormatFloatingAmount(dr("TC_TAX_BALANCE_TAX").ToString, True))
+                    pdfFormFields.SetField(pdfFieldPath & "E2b_3[0]", tmpDec.ToString().Substring(0, tmpDec.ToString.IndexOf(".")))
                 End If
                 If Not IsDBNull(dr("TC_TOTAL_INCOME_TAX")) Then
                     pdfFormFields.SetField(pdfFieldPath & "E3[0]", FormatFloatingAmount(dr("TC_TOTAL_INCOME_TAX").ToString, True))
