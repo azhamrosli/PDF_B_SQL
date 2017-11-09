@@ -75,8 +75,10 @@ Public Class clsBorangHandler
                 objBorangBE = New clsBorangBE2011()
             Case "2012"
                 objBorangBE = New clsBorangBE2012()
+            Case "2013"
+                objBorangBE = New clsBorangBE2013()
             Case "2014"
-                ' objBorangBE = New clsBorangBE2014()
+                objBorangBE = New clsBorangBE2014()
             Case "2015"
                 objBorangBE = New clsBorangBE2015()
             Case "2016"
